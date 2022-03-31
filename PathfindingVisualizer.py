@@ -5,7 +5,10 @@ from queue import PriorityQueue
 window = pygame.display.set_mode((600,600))
 pygame.display.set_caption("Path finding using the A* algorithm")
 
-
+print("1- Left-click a square to select the start node")
+print("2- Left-click another square to select the end node")
+print("3- Hold the left-click and drag your mouse while holding to select the barriers")
+print("4- Press SPACE to run")
 class Node:
     def __init__(self, row, column, width, rows ):
         self.row = row
