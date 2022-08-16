@@ -1,1 +1,1 @@
-A* Pathfinding visualizer made using pygame in python.
+A* Pathfinding visualizer that showcases the A* algorithm looking for the shortest route between the start node and the end node without going through the barriers set by the user. The program also allows the user to specify the start and end node.
